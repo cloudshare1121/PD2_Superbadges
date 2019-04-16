@@ -1,0 +1,7 @@
+<!--
+ - Created on 23/03/2019.
+ -->
+
+<aura:event type="COMPONENT" description="FormSubmit">
+    <aura:attribute name="formData" type="Object"/>
+</aura:event>

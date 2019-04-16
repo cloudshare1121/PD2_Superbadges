@@ -1,0 +1,21 @@
+<!--
+ - Created on 20/03/2019.
+ -->
+
+<aura:component description="BoatSearch" implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global">
+
+    <aura:handler name="formsubmit" event="c:FormSubmit" action="{!c.onFormSubmit}"/>
+
+    <lightning:card title="Find a Boat" class="findABoat">
+        <p class="slds-p-horizontal_small">
+            <c:BoatSearchForm aura:id="boatSearchForm"/>
+        </p>
+    </lightning:card>
+
+    <lightning:card title="Matching Boats">
+        <p class="slds-p-horizontal_small">
+            <c:BoatSearchResults aura:id="boatSearchResults"/>
+        </p>
+    </lightning:card>
+
+</aura:component>
