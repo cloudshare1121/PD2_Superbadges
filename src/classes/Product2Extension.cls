@@ -18,7 +18,7 @@ public class Product2Extension {
         return ChartHelper.GetInventory();
     }
 
-    //test git push - v1
+    //test git push - v2
     public PageReference Save(){
         SavePoint sp1 = Database.setSavepoint();
         try {
@@ -53,7 +53,7 @@ public class Product2Extension {
 
             insert pbList;
 
-            //If successful clear the list and display an informational message - okay retest again 3 pull request
+            //If successful clear the list and display an informational message - okay retest again 4 pull request
             apexPages.addMessage(new ApexPages.message(ApexPages.Severity.INFO,pbList.size()+' Inserted'));
             productsToInsert.clear();   //Do not remove
             addRows();  //Do not remove
