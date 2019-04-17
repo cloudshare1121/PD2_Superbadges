@@ -18,7 +18,7 @@ public class Product2Extension {
         return ChartHelper.GetInventory();
     }
 
-    //test git push - v1.1
+    //test git push - v2
     public PageReference Save(){
         SavePoint sp1 = Database.setSavepoint();
         try {
