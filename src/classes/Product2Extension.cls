@@ -53,7 +53,7 @@ public class Product2Extension {
 
             insert pbList;
 
-            //If successful clear the list and display an informational message - okay retest again 4 pull request
+            //If successful clear the list and display an informational message - okay retest again 5 pull request
             apexPages.addMessage(new ApexPages.message(ApexPages.Severity.INFO,pbList.size()+' Inserted'));
             productsToInsert.clear();   //Do not remove
             addRows();  //Do not remove
