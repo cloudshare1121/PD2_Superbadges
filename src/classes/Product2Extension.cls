@@ -1,5 +1,6 @@
 public class Product2Extension {
 
+    //this is a new commit for working_branch_v2
     public List<ProductWrapper> productsToInsert {get;set;}
 
     public Product2Extension(ApexPages.StandardController controller){
