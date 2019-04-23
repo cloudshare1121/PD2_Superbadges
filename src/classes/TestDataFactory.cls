@@ -3,7 +3,7 @@
 * @description Contains methods to construct and/or validate commonly used records
 **/
 
-//check for super merge
+//check for supdfer merge
 public with sharing class TestDataFactory {
 
     /**
