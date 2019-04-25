@@ -4,7 +4,7 @@
 **/
 public with sharing class TestDataFactory {
 
-    /**creating coddsfsdfnflict
+    /**creating conflict
 * @name ConstructCollaborationGroup
 * @description
 **/
